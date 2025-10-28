@@ -1,0 +1,22 @@
+/* Стилі для зображень до завантаження */
+img.lazy {
+  height: 200px;
+  width: 100%;
+  background-color: #f0f0f0;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+/* Коли зображення завантажено */
+img.loaded {
+  opacity: 1;
+}
+
+/* Галерея */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}

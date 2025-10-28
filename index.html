@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Лінійне завантаження зображень</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <h1>Галерея з лінійним завантаженням</h1>
+
+  <div class="gallery">
+    <img data-src="https://www.arnaud-dauphin.com/wp-content/uploads/2024/07/1720825936_guide-debutant-maitriser-la-pose-longue-en-photographie.jpg" alt="Фото 1" class="lazy" />
+    <img data-src="https://www.naturephotographie.com/wp-content/uploads/2017/08/Leave-The-Light-On.jpg" alt="Фото 2" class="lazy" />
+    <img data-src="https://louisvillewater.com/wp-content/uploads/2023/10/Paul-Miles-July-Sunrise-2-1024x768.jpg" alt="Фото 3" class="lazy" />
+    <img data-src="https://irp.cdn-website.com/b08f7e4e/dms3rep/multi/IMG-2794.jpg" alt="Фото 4" class="lazy" />
+  </div>
+
+  <button id="loadImages">Завантажити зображення вручну</button>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
